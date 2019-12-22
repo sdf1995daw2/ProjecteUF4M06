@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <meta charset="utf-8" />
+   <meta name="description" content="Validació simple amb jQuery">
+    <meta name="keywords" content="HTML,CSS,jQuery,JavaScript">
+    <link rel="stylesheet" type="text/css" href="othello.css">
+    <script src="jquery.js"></script>
+    <script>
+        
+   $(function () {
+   
+        $(".boto").click(function (event){
+            $("#parrafo").prepend("<p>Bienvenido "+$('input:text[name=nombre]').val()+" .");
+                $('#formulario').submit();
+    }); 
+
+    });
+    
+    
+    </script>
+    </head>
+    <body style="background-image: url('fondo.jpg')">
+        <form id="formulario" action="/iniciarco" method="GET">
+        <p class="titulo">Jesuites Othello Version Catalonian </p>
+        <p>Registrate para poder jugar</p>
+        nombre: <input type="text" name="nombre"><br>
+        Contraseña: <input type="password" name="Contraseña"><br>
+        
+    </form>
+    <p id="parrafo">
+        
+       
+        <br>
+       
+    </p>
+    <buttom class='boto' value="inicia">iniciar</buttom>  
+
+    </body>
+</html>

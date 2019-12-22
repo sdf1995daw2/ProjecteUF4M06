@@ -1,0 +1,11 @@
+.titulo{
+    font-weight: bold;
+    text-align: center;
+  text-shadow: 3px 3px 2px #67ebb4;
+  background-color:white;
+  color: #1660c7;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+body{
+  color:red;
+}
