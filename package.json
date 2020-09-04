@@ -4,7 +4,7 @@
   "description": "![alt tag](https://github.com/sergigrau/DAWM06UF4-2-AJAX-exercicis/blob/master/imatges/node.png)",
   "main": "M10_indexMongoDB.js",
   "dependencies": {
-    "mongodb": "^2.2.25"
+    "mongodb": "^3.1.13"
   },
   "devDependencies": {},
   "scripts": {
